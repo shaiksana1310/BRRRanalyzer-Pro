@@ -17,7 +17,7 @@ AI-powered BRRR (Buy, Rehab, Rent, Refinance, Repeat) real estate investment ana
 
 ## How to use
 
-1. Download `brrr-analyzer.html`
+1. Download `index.html`
 2. Open it in any browser
 3. Enter your [Anthropic API key](https://console.anthropic.com) (stored locally, never shared)
 4. Type any property address and click **Analyze Deal**
@@ -26,7 +26,7 @@ AI-powered BRRR (Buy, Rehab, Rent, Refinance, Repeat) real estate investment ana
 
 ### Netlify Drop (10 seconds)
 1. Go to [netlify.com/drop](https://netlify.com/drop)
-2. Drag `brrr-analyzer.html` onto the page
+2. Drag `index.html` onto the page
 3. Share the URL
 
 ### GitHub Pages
