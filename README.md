@@ -22,20 +22,23 @@ AI-powered BRRR (Buy, Rehab, Rent, Refinance, Repeat) real estate investment ana
 3. Enter your [Anthropic API key](https://console.anthropic.com) (stored locally, never shared)
 4. Type any property address and click **Analyze Deal**
 
-## How to deploy (share with anyone, no login needed)
+## How to deploy (share with anyone)
+Get your free Gemini API key (2 min)
 
-### Netlify Drop (10 seconds)
-1. Go to [netlify.com/drop](https://netlify.com/drop)
-2. Drag `index.html` onto the page
-3. Share the URL
+Go to aistudio.google.com
+Sign in with any Google account
+Click "Get API key" in the left sidebar
+Click "Create API key"
+Copy the key — looks like AIzaSy...
 
-### GitHub Pages
-1. Fork this repo
-2. Go to Settings → Pages
-3. Set source to `main` branch, `/ (root)`
-4. Visit `https://yourusername.github.io/brrr-analyzer`
+Google gives 15 requests/minute and 1 million tokens/day free on Gemini Flash
+— genuinely free, no billing required. Users get their own free key at aistudio.google.com.
+Tradeoff: Gemini Flash is solid for this use case. Quality close to Claude Sonnet. 
+This is probably the best "free for everyone" option.
 
-## API key & cost
+          (OR)
+          
+## API key & cost(CLAUDE) for best quality
 
 Each user enters their own Anthropic API key. Get one free at [console.anthropic.com](https://console.anthropic.com).
 
